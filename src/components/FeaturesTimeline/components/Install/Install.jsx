@@ -1,9 +1,9 @@
-import "./AwardsInstall.scss";
-import AwardsMedia from "../shared/AwardsMedia";
+import "./Install.scss";
+import Media from "../Media/Media";
 
 // import installMedia from "../../../assets/awards/install-video.jpg";
 
-export default function AwardsInstall() {
+export default function Install() {
   return (
     <div className="row align-items-center g-4 awards__block awards__block--invert awards-install">
       {/* Texto */}
@@ -28,7 +28,7 @@ export default function AwardsInstall() {
 
       {/* Media */}
       <div className="col-12 col-lg-6">
-        <AwardsMedia
+        <Media
           // src={installMedia}
           alt="People watching a laptop"
           tag="Play video ▶"

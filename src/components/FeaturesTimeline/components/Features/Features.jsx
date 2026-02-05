@@ -1,9 +1,9 @@
-import "./AwardsFeatures.scss";
-import AwardsMedia from "../shared/AwardsMedia";
+import "./Features.scss";
+import Media from "../Media/Media";
 
 // import featuresMedia from "../../../assets/awards/features-video.jpg";
 
-export default function AwardsFeatures() {
+export default function Features() {
   return (
     <div className="row align-items-center g-4 awards__block awards__block--invert award-features">
       <div className="col-12 col-lg-6">
@@ -26,7 +26,7 @@ export default function AwardsFeatures() {
       </div>
 
       <div className="col-12 col-lg-6">
-        <AwardsMedia
+        <Media
           // src={featuresMedia}
           alt="People working"
           tag="Play video ▶"

@@ -1,10 +1,10 @@
-import "./AwardsTools.scss";
-import AwardsMedia from "../shared/AwardsMedia";
+import "./Tools.scss";
+import Media from "../Media/Media";
 
 // Cambia la ruta según tu proyecto:
 // import toolsThumb from "../../../assets/awards/tools-thumb.jpg";
 
-export default function AwardsTools() {
+export default function Tools() {
   return (
     <div className="row align-items-center g-4 awards__block award-tools">
       {/* Visual */}
@@ -33,7 +33,7 @@ export default function AwardsTools() {
 
             {/* thumbnail flotante */}
             <div className="award-tools__thumb">
-              <AwardsMedia
+              <Media
                 // src={toolsThumb}
                 alt="Team collaborating"
                 height={150}

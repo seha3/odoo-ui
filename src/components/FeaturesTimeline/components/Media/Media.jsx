@@ -1,6 +1,6 @@
-import "./AwardsMedia.scss";
+import "./Media.scss";
 
-export default function AwardsMedia({
+export default function Media({
   src,
   alt = "",
   tag = "Play video ▶",

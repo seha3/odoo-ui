@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Awards from './components/FeaturesTimeline/Awards'
+import Awards from './components/FeaturesTimeline/FeaturesTimeline'
 import FAQ from './components/FAQ/FAQ'
 import Footer from './components/Footer/Footer'
 import Divider from './components/Divider/Divider'

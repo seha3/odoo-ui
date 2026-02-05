@@ -1,6 +1,6 @@
-import "./AwardsTechnology.scss";
+import "./Technology.scss";
 
-export default function AwardsTechnology() {
+export default function Technology() {
   return (
     <div className="row align-items-center g-4 awards__block awards-technology">
       {/* Collage */}
