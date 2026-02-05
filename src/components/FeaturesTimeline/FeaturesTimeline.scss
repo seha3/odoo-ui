@@ -1,67 +1,28 @@
-.awards {
-  background: #e6e6e6;
+.features-timeline {
+  background: #cccccc;
   position: relative;
   padding: 70px 0;
 }
 
-.awards__container {
+.features-timeline__wrap {
   position: relative;
 }
 
-/* Bloques */
-.awards__block {
-  padding: 52px 0;
-  position: relative;
-  z-index: 1;
-}
-
-/* Zig-zag (invierte orden en desktop) */
-@media (min-width: 992px) {
-  .awards__block--invert {
-    flex-direction: row-reverse;
-  }
-}
-
-/* Pills */
-.awards__pill {
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 6px 12px;
-  border-radius: 999px;
-  color: rgba(0, 0, 0, 0.7);
-  background: rgba(0, 0, 0, 0.08);
-}
-
-.awards__pill--tools { background: rgba(255, 193, 7, 0.35); }
-.awards__pill--features { background: rgba(25, 135, 84, 0.22); }
-.awards__pill--tech { background: rgba(13, 110, 253, 0.18); }
-.awards__pill--install { background: rgba(255, 193, 7, 0.35); }
-
-.awards__link {
-  color: #0d6efd;
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-/* Línea punteada central (decorativa, aproximación) */
-.awards__path {
+.features-timeline__path {
   position: absolute;
   top: 40px;
   bottom: 40px;
   left: 50%;
   width: 540px;
   transform: translateX(-50%);
-  border-left: 2px dashed rgba(0, 0, 0, 0.18);
+  border-left: 2px dashed rgba(40, 66, 120, 0.35);
   border-radius: 260px;
   opacity: 0.55;
   pointer-events: none;
 }
 
-/* En mobile la línea estorba: ocultarla */
 @media (max-width: 991.98px) {
-  .awards__path {
+  .features-timeline__path {
     display: none;
   }
 }

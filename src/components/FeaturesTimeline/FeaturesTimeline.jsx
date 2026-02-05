@@ -1,15 +1,15 @@
 import "./FeaturesTimeline.scss";
 
-import Features from "./components/Features/Features";
-import Install from "./components/Install/Install";
-import Technology from "./components/Technology/Technology";
 import Tools from "./components/Tools/Tools";
+import Features from "./components/Features/Features";
+import Technology from "./components/Technology/Technology";
+import Install from "./components/Install/Install";
 
 export default function FeaturesTimeline() {
   return (
-    <section id="awards" className="awards">
-      <div className="container awards__container position-relative">
-        <div className="awards__path" aria-hidden="true" />
+    <section className="features-timeline">
+      <div className="container features-timeline__wrap position-relative">
+        <div className="features-timeline__path" aria-hidden="true" />
 
         <Tools />
         <Features />

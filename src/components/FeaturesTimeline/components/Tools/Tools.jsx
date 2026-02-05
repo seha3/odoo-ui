@@ -1,7 +1,6 @@
 import "./Tools.scss";
 import Media from "../Media/Media";
 
-// Cambia la ruta según tu proyecto:
 // import toolsThumb from "../../../assets/awards/tools-thumb.jpg";
 
 export default function Tools() {

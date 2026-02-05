@@ -18,7 +18,6 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-/* tamaños aproximados al mock */
 .tech-card--photo {
   height: 150px;
 }
@@ -39,7 +38,6 @@
   height: 210px;
 }
 
-/* responsive: en mobile que no se “apachurre” */
 @media (max-width: 575.98px) {
   .awards-technology__collage {
     max-width: 100%;
