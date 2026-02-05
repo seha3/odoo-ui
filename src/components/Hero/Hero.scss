@@ -1,0 +1,45 @@
+.custom-hero {
+    background-color: #026ECC;
+}
+
+.trusted-by {
+  margin-top: 3rem;
+}
+
+.trusted-label {
+  letter-spacing: 0.02em;
+}
+
+.brand-logo {
+  color: rgba(255, 255, 255, 0.65);
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+
+  svg {
+    display: block;
+    height: 22px;
+    width: auto;
+  }
+}
+
+.hero-card {
+  background: #d6d7da;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 18px 18px 90px 18px;
+  overflow: hidden;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  max-width: 520px;
+  margin-left: aunto;
+
+  @media (max-width: 991.98px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.hero-card-inner {
+  border: 0 !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+}

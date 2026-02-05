@@ -1,0 +1,18 @@
+.award-features__list {
+  color: rgba(0, 0, 0, 0.60);
+}
+
+.award-features__check {
+  width: 22px;              /* más “lindo” como en tu screenshot */
+  height: 22px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(25, 135, 84, 0.15); /* verde suave */
+  color: #198754;                      /* verde Bootstrap */
+  font-weight: 900;
+  line-height: 1;
+  flex: 0 0 auto;
+}

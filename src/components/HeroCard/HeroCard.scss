@@ -1,0 +1,112 @@
+.hero-card {
+  background: #d6d7da;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 18px 18px 110px 18px;
+  overflow: hidden;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.18);
+  width: 100%;
+  margin-left: auto;
+
+  @media (min-width: 992px) {
+    .hero-card {
+        min-width: 420px;
+    }
+    margin-right: auto;
+  }
+}
+
+.hero-card__add {
+    max-width: 420px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+/* credit card */
+.credit-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 18px;
+  color: rgba(255, 255, 255, 0.92);
+  overflow: hidden;
+  background: radial-gradient(
+    120% 120% at 0% 0%,
+    #2a1b62 0%,
+    #1b1446 40%,
+    #141033 100%
+  );
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+}
+
+.credit-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 75% 35%, rgba(255,255,255,0.10) 0 3px, transparent 4px) 0 0/18px 18px,
+    radial-gradient(circle at 85% 70%, rgba(255,255,255,0.08) 0 3px, transparent 4px) 0 0/18px 18px;
+  opacity: 0.8;
+}
+
+.credit-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.credit-status {
+  background: rgba(56, 209, 170, 0.9);
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 12px;
+}
+
+.credit-label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.credit-number {
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.credit-value {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* list */
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 2px;
+}
+
+.list-row > :first-child {
+  max-width: 70%;
+}
+
+.list-row > :last-child {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.hero-card__divider {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.hero-card__viewall {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

@@ -1,0 +1,52 @@
+.awards-technology__collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: center;
+  max-width: 460px;
+}
+
+.awards-technology__col {
+  display: grid;
+  gap: 14px;
+}
+
+.tech-card {
+  background: rgba(255, 255, 255, 0.60);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* tamaños aproximados al mock */
+.tech-card--photo {
+  height: 150px;
+}
+
+.tech-card--user {
+  height: 70px;
+}
+
+.tech-card--badge {
+  height: 88px;
+}
+
+.tech-card--rating {
+  height: 120px;
+}
+
+.tech-card--kit {
+  height: 210px;
+}
+
+/* responsive: en mobile que no se “apachurre” */
+@media (max-width: 575.98px) {
+  .awards-technology__collage {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .tech-card--kit {
+    height: 170px;
+  }
+}
